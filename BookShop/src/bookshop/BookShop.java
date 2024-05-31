@@ -28,7 +28,7 @@ public class BookShop extends javax.swing.JFrame {
         jTable1.setDefaultEditor(Object.class, null);
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookshop", "root", "hirdhya0306");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookshop", "root", "password");
             stmt = conn.createStatement();
             setText();
         } catch(ClassNotFoundException | SQLException e) {
