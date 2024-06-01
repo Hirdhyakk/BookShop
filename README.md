@@ -26,13 +26,13 @@ To get a local copy up and running, follow these simple steps:
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/Hirdhyakk/BookShop
+    git clone https://github.com/Hirdhyakk/BookShop.git
     ```
 
 2. **Navigate to the project directory**
 
     ```bash
-    cd bookshop
+    cd BookShop
     ```
 
 3. **Set up the database**
@@ -40,7 +40,7 @@ To get a local copy up and running, follow these simple steps:
     - Create a MySQL database (or use any other database) and configure it in the project.
     - Run the SQL scripts provided in the `sql/` directory to set up the necessary tables.
 
-4. **Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse)**
+4. **Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse, preferred is Netbeans)**
 
 5. **Configure the database connection**
 
